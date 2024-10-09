@@ -36,4 +36,34 @@ I assuming that you have **`Debian`** base linux but hey, for other distro, it s
 
 ## Logger
 
+This middleware can log :
+
+- **Requested url**
+- **Query if it is existed**
+- **Session if it is existed**
+
+Of course I need to optimize the logging time but for now, It works as expected!
+
 ## Shell Defender
+
+The most dangerous attack that Django struggles with it, is the shell attack.
+Shells always attach to a picture and the intruder upload it as his profile pic, and than he tries to activate it with
+some remote access tools. Shells may have some dangerous script like **`SQL Query`** or any other **Python`** scripts.
+
+But, There are one thing in common: 
+
+- **When they attach, they work with that extension**
+
+so we can change the extension of the corrupted file before it gets uploaded.
+
+## Web3 Cookies
+
+I'v designed these two middlewares for you, give them a try and send me your feedback.
+
+### Web3CookieMiddleware
+
+- **Purpose**: This middleware handles the retrieval, validation, and setting of a Web3 cookie in Django requests and responses.
+
+### RoleBasedAccessControlMiddleware
+
+- **Purpose**: This middleware manages role-based access control by extracting roles from the Web3 cookie and attaching them to the request object.
