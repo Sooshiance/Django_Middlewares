@@ -50,6 +50,8 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 
     'cookie_cutter.middleware.Web3CookieMiddleware',
+    
+    'cookie_cutter.middleware.RoleBasedAccessControlMiddleware',
 ]
 
 ROOT_URLCONF = 'core.urls'
