@@ -11,6 +11,16 @@ If you want to use this :
 - first fill up some settings in `settings.py`
 - change `MAX_LIMIT_REQUEST` value as you please.
 
+Now you can just execute `runserver` command:
+
+- Linux/Mac
+
+            python3 manage.py runserver
+
+- Windows
+
+            python manage.py runserver
+
 ### Cache framework
 
 You can add your cache framework in the `settings.py` to better controling
