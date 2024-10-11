@@ -15,11 +15,11 @@ Now you can just execute `runserver` command:
 
 - Linux/Mac
 
-    python3 manage.py runserver
+        python3 manage.py runserver
 
 - Windows
 
-    python manage.py runserver
+        python manage.py runserver
 
 ### Cache framework
 
